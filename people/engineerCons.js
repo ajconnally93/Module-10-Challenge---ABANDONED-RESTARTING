@@ -2,7 +2,9 @@ const Employee = require("./Employee");
 
 
 class Engineer extends Employee {
-    // Should match Employee class constructor?
+    ////// Should match Employee class constructor? //////
+
+    // create shell HTML to test console logs?
     constructor (eName, eId, eEmail, eGithub) {
         super (eName, eId, eEmail);
         this.github = eGithub;
@@ -11,11 +13,9 @@ class Engineer extends Employee {
     getGithub() {
         return this.github;
     }
-
     getRole() {
         return "Engineer";
     }
-
 }
 
 module.exports = Engineer;

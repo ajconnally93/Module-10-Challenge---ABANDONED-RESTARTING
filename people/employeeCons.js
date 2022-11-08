@@ -1,3 +1,4 @@
+// Will be used as an extension for all other people constructors (engineers, interns, managers)
 class Employee {
 
     constructor (eName, eId, eEmail) {
