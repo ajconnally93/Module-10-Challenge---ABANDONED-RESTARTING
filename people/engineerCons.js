@@ -1,14 +1,16 @@
 // ////// ERROR HERE
-const Employee = require("./Employee");
+// const Employee = require("./Employee");
+// const Employee = require("./people/employeeCons.js");
+const Employee = require("./employeeCons.js");
 
 
 class Engineer extends Employee {
     ////// Should match Employee class constructor? //////
 
     // create shell HTML to test console logs?
-    constructor (eName, eId, eEmail, eGithub) {
+    constructor (eName, eId, eEmail, github) {
         super (eName, eId, eEmail);
-        this.github = eGithub;
+        this.github = github;
     }
 
     getGithub() {

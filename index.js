@@ -35,7 +35,7 @@ function getPeople() {
         message: 'What is your Email?',
         name: 'eEmail'
     }, {
-        type: 'input',
+        type: 'list',
         message: 'What is your job title?',
         choices: ['Engineer', 'Intern', 'Manager'],
         name: 'eTitle',
