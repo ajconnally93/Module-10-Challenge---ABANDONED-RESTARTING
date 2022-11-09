@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/ajconnally93/Module-10-Challenge---Team-Profile-Generator#readme",
   "dependencies": {
-    "inquirer": "^9.1.4"
+    "inquirer": "^8.2.4"
   }
 }
